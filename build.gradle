@@ -22,9 +22,9 @@ dependencies {
 
 }
 
-//test {
-//    useJUnit()
-//}
+test {
+    useJUnit()
+}
 
 configurations {
     cucumberRuntime {
@@ -32,24 +32,26 @@ configurations {
     }
 }
 
-    def tags = (findProperty('tags') == null) ? 'not @exclude' : findProperty('tags') + ' and not @exclude'
+task cucumber(){
+    description("Running Cucumber Test")
 
-task runCucumberTests {
-    group = 'verification'
     description = 'Run Cucumber tests with specified tags.'
 
     def defaultTags = "@smoke" // Set a default tag if no tag is provided
     def cucumberTags = project.hasProperty('tags') ? project.getProperty('tags') : defaultTags
 
-    doLast {
+
+    dependsOn assemble, compileTestJava
+    doLast{
         javaexec {
-            mainClass.set('io.cucumber.core.cli.Main') // Main class for running Cucumber
-            classpath = sourceSets.test.runtimeClasspath // Use the test runtime classpath
+            main = "io.cucumber.core.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
             args = [
+                    '--plugin', 'html:reports/test-report.html',
                     '--plugin', 'pretty',
-                    '--glue', 'com.finarizky', // Replace with your step definitions package
-                    'src/test/resources', // Path to your feature files
-                    '--tags', cucumberTags // Pass tags to Cucumber
+                    '--glue', 'com.finarizky',
+                    '--tags', cucumberTags,
+                    'src/test/resources'
             ]
         }
     }
