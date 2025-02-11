@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 
 public class loginpage {
 
-    WebDriver driver;
+    static WebDriver driver;
 
     By usernameInputText = By.id("user-name");
     By passInputText = By.id("password");
@@ -17,11 +17,13 @@ public class loginpage {
         this.driver = driver;
     }
 
-    public void goToLoginPage() {
+    public static void goToLoginPage() {
+
         driver.get("https://www.saucedemo.com/");
     }
 
     public void inputUsername(String username) {
+
         driver.findElement(usernameInputText).sendKeys(username);
     }
 
@@ -34,6 +36,7 @@ public class loginpage {
     }
 
     public void validateErrorAppear(String errorMessage) {
+
         assertFalse(driver.getPageSource().contains(errorMessage));
     }
 }
