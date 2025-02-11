@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'org.Finarizky'
+group 'org.finarizky'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -10,7 +10,6 @@ repositories {
 }
 
 dependencies {
-
     testImplementation 'org.seleniumhq.selenium:selenium-java:4.28.1'
     testImplementation("io.github.bonigarcia:webdrivermanager:5.9.2")
 
@@ -19,7 +18,6 @@ dependencies {
 
     testImplementation 'io.cucumber:cucumber-java:7.14.0'
     testImplementation 'io.cucumber:cucumber-junit:7.14.0'
-
 }
 
 test {
@@ -32,17 +30,12 @@ configurations {
     }
 }
 
-task cucumber(){
+def tags = (findProperty('tags') == null) ? 'not @exclude' : findProperty('tags') + ' and not @exclude'
+
+task cucumber() {
     description("Running Cucumber Test")
-
-    description = 'Run Cucumber tests with specified tags.'
-
-    def defaultTags = "@smoke" // Set a default tag if no tag is provided
-    def cucumberTags = project.hasProperty('tags') ? project.getProperty('tags') : defaultTags
-
-
     dependsOn assemble, compileTestJava
-    doLast{
+    doLast {
         javaexec {
             main = "io.cucumber.core.cli.Main"
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
@@ -50,7 +43,7 @@ task cucumber(){
                     '--plugin', 'html:reports/test-report.html',
                     '--plugin', 'pretty',
                     '--glue', 'com.finarizky',
-                    '--tags', cucumberTags,
+                    '--tags', "${tags}",
                     'src/test/resources'
             ]
         }
