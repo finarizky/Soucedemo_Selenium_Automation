@@ -5,29 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe6be2b0-9bc2-4f6f-9f8c-f7add47815ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/basetest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/cartpage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/checkoutpage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/homepage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/loginpage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/product_detailpage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/cart_stepdef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/checkout_stepdef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/cucumberHooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/homepage_stepdef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/login_stepdef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/productdetail_stepdef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cart.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/checkout.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/homepage.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/product_detail.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/cucumber.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/test-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/test-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/RunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/LoginStepdef.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/d.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/homepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/loginpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/loginpage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/homepage_stepdef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/homepage_stepdef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/homepage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/homepage.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +52,7 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/macbook/Documents/GitHub/Soucedemo_Selenium_Automation&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Feature: login">
+  <component name="RunManager" selected="Gradle.RunnerTest">
     <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/login.feature" />
@@ -130,7 +115,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Cucumbertest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RunnerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -143,7 +128,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.finarizky.Cucumbertest&quot;" />
+            <option value="&quot;com.finarizky.RunnerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -176,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RunnerTest" />
         <item itemvalue="Cucumber Java.Feature: login" />
         <item itemvalue="Cucumber Java.Scenario: Login using valid email and password" />
         <item itemvalue="Gradle.Soucedemo_Selenium_Automation [cucumber]" />
         <item itemvalue="Gradle.CucumberHook" />
-        <item itemvalue="Gradle.Cucumbertest" />
       </list>
     </recent_temporary>
   </component>
