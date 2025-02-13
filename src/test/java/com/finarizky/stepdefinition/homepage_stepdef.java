@@ -42,11 +42,13 @@ public class homepage_stepdef extends basetest {
 
     @And("User click filter button")
     public void userClickFilterButton() {
+
         homepage.setButtonFilter();
     }
 
     @And("User click spesific filter button z to a")
     public void userClickSpesificFilterButtonZToA() {
+
         homepage.setButtonZtoA();
     }
 
@@ -58,6 +60,7 @@ public class homepage_stepdef extends basetest {
 
     @And("User click spesific filter button a to z")
     public void userClickSpesificFilterButtonAToZ() {
+
         homepage.setButtonAtoZ();
     }
 
@@ -69,6 +72,7 @@ public class homepage_stepdef extends basetest {
 
     @And("User click spesific filter button price low to high")
     public void userClickSpesificFilterButtonPriceLowToHigh() {
+
         homepage.setButtonLowtoHigh();
     }
 
@@ -80,6 +84,7 @@ public class homepage_stepdef extends basetest {
 
     @And("User click spesific filter button price high to low")
     public void userClickSpesificFilterButtonPriceHighToLow() {
+
         homepage.setButtonHightoLow();
     }
 
@@ -89,36 +94,202 @@ public class homepage_stepdef extends basetest {
         homepage.validateHightoLow();
     }
 
-    @And("User click add to cart button")
-    public void userClickAddToCartButton() {
-        homepage.setButtonAddtoCart();
+    @And("User add to cart backpack")
+    public void userAddToCartBackpack() {
+
+        homepage.setAddCartBackpack();
     }
 
-    @And("The cart contain product")
-    public void theCartContainProduct() {
+    @And("The cart contain product backpack")
+    public void theCartContainProductBackpack() {
+
         assertTrue("", homepage.isCartEmpty());
     }
 
-    @Then("The add to cart button change to remove button")
-    public void theAddToCartButtonChangeToRemoveButton() {
+    @Then("The add to cart button backpack change to remove button")
+    public void theAddToCartButtonBackpackChangeToRemoveButton() {
+
         homepage = new homepage(driver);
-        homepage.validatebuttonRemoveBackpack();
+        homepage.validateButtonChangetoRemoveBp();
     }
 
-    @And("User click remove button")
-    public void userClickRemoveButton() {
-        homepage.removeBackpack();
+    @And("User add to cart light bike")
+    public void userAddToCartLightBike() {
+
+        homepage.setAddCartLightBike();
     }
+
+    @And("The cart contain product light bike")
+    public void theCartContainProductLightBike() {
+
+        assertTrue("", homepage.isCartEmpty());
+    }
+
+    @Then("The add to cart button light bike change to remove button")
+    public void theAddToCartButtonLightBikeChangeToRemoveButton() {
+
+        homepage = new homepage(driver);
+        homepage.validateButtonChangetoRemoveLb();
+    }
+
+    @And("User add to cart bolt tshirt")
+    public void userAddToCartBoltTshirt() {
+
+        homepage.setAddCartBoltTshirt();
+    }
+
+    @And("The cart contain product bolt tshirt")
+    public void theCartContainProductBoltTshirt() {
+
+        assertTrue("", homepage.isCartEmpty());
+    }
+
+    @Then("The add to cart button bolt tshirt change to remove button")
+    public void theAddToCartButtonBoltTshirtChangeToRemoveButton() {
+
+        homepage = new homepage(driver);
+        homepage.validateButtonChangetoRemoveBoltTshirt();
+    }
+
+    @And("User add to cart fleece jacket")
+    public void userAddToCartFleeceJacket() {
+
+        homepage.setAddCartFleeceJacket();
+    }
+
+    @And("The cart contain product fleece jacket")
+    public void theCartContainProductFleeceJacket() {
+
+        assertTrue("", homepage.isCartEmpty());
+    }
+
+    @Then("The add to cart button fleece jacket change to remove button")
+    public void theAddToCartButtonFleeceJacketChangeToRemoveButton() {
+
+        homepage = new homepage(driver);
+        homepage.validateButtonChangetoRemoveFj();
+    }
+
+    @And("User add to cart onesie")
+    public void userAddToCartOnesie() {
+
+        homepage.setAddChartOnesie();
+    }
+
+    @And("The cart contain product onesie")
+    public void theCartContainProductOnesie() {
+
+        assertTrue("", homepage.isCartEmpty());
+    }
+
+    @Then("The add to cart button onesie change to remove button")
+    public void theAddToCartButtonOnesieChangeToRemoveButton() {
+
+        homepage = new homepage(driver);
+        homepage.validateButtonChangetoRemoveOnesie();
+    }
+
+    @And("User add to cart tshirt red")
+    public void userAddToCartTshirtRed() {
+
+        homepage.setAddChartTshirtRed();
+    }
+
+    @And("The cart contain product tshirt red")
+    public void theCartContainProductTshirtRed() {
+
+        assertTrue("", homepage.isCartEmpty());
+    }
+
+    @Then("The add to cart button tshirt red change to remove button")
+    public void theAddToCartButtonTshirtRedChangeToRemoveButton() {
+
+        homepage = new homepage(driver);
+        homepage.validateButtonChangetoRemoveTr();
+    }
+
 
     @And("The cart is empty")
     public void theCartIsEmpty() {
+
         assertFalse("", homepage.isCartEmpty());
     }
 
-    @Then("The remove button change to add to cart button")
-    public void theRemoveButtonChangeToAddToCartButton() {
+    @And("User click remove button backpack")
+    public void userClickRemoveButtonBackpack() {
+
+        homepage.setButtonRemoveBackpack();
+    }
+
+    @Then("The remove button bp change to add to cart button bp")
+    public void theRemoveButtonBpChangeToAddToCartButtonBp() {
+
         homepage = new homepage(driver);
-        homepage.validatebuttonAddtoCartBp();
+        homepage.validateButtonChangetoAddtoCartBp();
+    }
+
+    @And("User click remove button light bike")
+    public void userClickRemoveButtonLightBike() {
+        homepage.setButtonRemoveLightBike();
+
+    }
+
+    @Then("The remove button lp change to add to cart button lp")
+    public void theRemoveButtonLpChangeToAddToCartButtonLp() {
+
+        homepage = new homepage(driver);
+        homepage.validateButtonChangetoAddtoCartLb();
+    }
+
+    @And("User click remove button bolt tshirt")
+    public void userClickRemoveButtonBoltTshirt() {
+        homepage.setButtonRemoveBoltTshirt();
+    }
+
+    @Then("The remove button bt change to add to cart button bt")
+    public void theRemoveButtonBtChangeToAddToCartButtonBt() {
+
+        homepage = new homepage(driver);
+        homepage.validateButtonChangetoAddtoCartBt();
+    }
+
+    @And("User click remove button fleece jacket")
+    public void userClickRemoveButtonFleeceJacket() {
+
+        homepage.setButtonRemoveFleeceJacket();
+    }
+
+    @Then("The remove button fj change to add to cart button fj")
+    public void theRemoveButtonFjChangeToAddToCartButtonFj() {
+
+        homepage = new homepage(driver);
+        homepage.validateButtonChangetoAddtoCartFj();
+    }
+
+    @And("User click remove button onesie")
+    public void userClickRemoveButtonOnesie() {
+
+        homepage.setButtonRemoveOnesie();
+    }
+
+    @Then("The remove button onesie change to add to cart button onesie")
+    public void theRemoveButtonOnesieChangeToAddToCartButtonOnesie() {
+
+        homepage = new homepage(driver);
+        homepage.validateButtonChangetoAddtoCarOnesie();
+    }
+
+    @And("User click remove button tshirt red")
+    public void userClickRemoveButtonTshirtRed() {
+
+        homepage.setButtonRemoveTr();
+    }
+
+    @Then("The remove button tr change to add to cart button tr")
+    public void theRemoveButtonTrChangeToAddToCartButtonTr() {
+
+        homepage = new homepage(driver);
+        homepage.validateButtonChangetoAddtoCartTr();
     }
 
 }
