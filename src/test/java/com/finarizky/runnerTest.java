@@ -1,6 +1,5 @@
 package com.finarizky;
 
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -9,9 +8,9 @@ import org.junit.runner.RunWith;
 
 @CucumberOptions(
         glue = {"com.finarizky"},
-        features = {"src/test/resources/checkout.feature"},
-        plugin = {"pretty","html:reports/cucumber_checkout.html", "json:reports/cucumber_checkout.json"}
+        features = {"src/test/resources"},
+        plugin = {"pretty","html:reports/cucumber.html", "json:reports/cucumber.json"}
 )
-
-public class checkoutRunnerTest {
+public class runnerTest {
 }
+

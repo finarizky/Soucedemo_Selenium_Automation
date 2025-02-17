@@ -15,8 +15,8 @@ Feature: Login
     When User input username with "nanabi"
     And User input password with "secret_sauce"
     And User click login button
-    Then User is on login page
-    And User able to see error message "Epic sadface: Username and password do not match any user in this service"
+    And User is on login page
+    Then User able to see error message "Epic sadface: Username and password do not match any user in this service"
 
   @login-invalid-password
   Scenario: Login using invalid email and password
@@ -24,8 +24,8 @@ Feature: Login
     When User input username with "standart_user"
     And User input password with "secret_sauce123"
     And User click login button
-    Then User is on login page
-    And User able to see error message "Epic sadface: Username and password do not match any user in this service"
+    And User is on login page
+    Then User able to see error message "Epic sadface: Username and password do not match any user in this service"
 
   @empty-login
   Scenario: Login with empty email and password
@@ -40,5 +40,5 @@ Feature: Login
     When User input username with "standard_user123"
     And User input password with "secret_sauce123"
     And User click login button
-    Then User is on login page
-    And User able to see error message "Epic sadface: Username and password do not match any user in this service"
+    And User is on login page
+    Then User able to see error message "Epic sadface: Username and password do not match any user in this service"

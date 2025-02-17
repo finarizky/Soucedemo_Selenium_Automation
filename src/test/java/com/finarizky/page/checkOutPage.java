@@ -6,11 +6,11 @@ import org.openqa.selenium.WebElement;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class checkoutpage {
+public class checkOutPage {
 
     private static WebDriver driver;
 
-    public checkoutpage(WebDriver driver) {
+    public checkOutPage(WebDriver driver) {
 
         this.driver = driver;
     }

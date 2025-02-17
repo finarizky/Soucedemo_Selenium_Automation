@@ -7,10 +7,10 @@ import org.openqa.selenium.WebElement;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class productdetailpage {
+public class productDetailPage {
     private static WebDriver driver;
 
-    public productdetailpage(WebDriver driver) {
+    public productDetailPage(WebDriver driver) {
 
         this.driver = driver;
     }
@@ -54,4 +54,11 @@ public class productdetailpage {
 
         driver.findElement(buttonBacktoProduct).click();
     }
+
+//    public void validateProductDetailPage() {
+//
+//        WebElement productElement = driver.findElement(buttonBacktoProduct);
+//        assertTrue(productElement.isDisplayed());
+//        assertEquals("Back to products", productElement.getText());
+//    }
 }
