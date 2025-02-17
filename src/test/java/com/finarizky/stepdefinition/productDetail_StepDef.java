@@ -1,21 +1,21 @@
 package com.finarizky.stepdefinition;
 
-import com.finarizky.basetest;
-import com.finarizky.page.homepage;
-import com.finarizky.page.productdetailpage;
+import com.finarizky.baseTest;
+import com.finarizky.page.homePage;
+import com.finarizky.page.productDetailPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 
 import static junit.framework.TestCase.assertTrue;
 
-public class productdetail_stepdef extends basetest {
+public class productDetail_StepDef extends baseTest {
 
-    productdetailpage productdetailpage;
-    homepage homepage;
+    productDetailPage productdetailpage;
+    homePage homepage;
 
-    public productdetail_stepdef() {
+    public productDetail_StepDef() {
 
-        this.productdetailpage = new productdetailpage(driver);
+        this.productdetailpage = new productDetailPage(driver);
     }
 
 
@@ -40,7 +40,7 @@ public class productdetail_stepdef extends basetest {
     @Then("The add to cart button change to remove button")
     public void theAddToCartButtonChangeToRemoveButton() {
 
-        productdetailpage = new productdetailpage(driver);
+        productdetailpage = new productDetailPage(driver);
         productdetailpage.validateButtonRemove();
     }
 
@@ -53,7 +53,7 @@ public class productdetail_stepdef extends basetest {
     @Then("The remove button change to add to cart button")
     public void theRemoveButtonChangeToAddToCartButton() {
 
-        productdetailpage = new productdetailpage(driver);
+        productdetailpage = new productDetailPage(driver);
         productdetailpage.validateButtonAddtoCart();
     }
 
@@ -62,4 +62,11 @@ public class productdetail_stepdef extends basetest {
 
         productdetailpage.clickBacktoProduct();
     }
+
+//    @Then("User is on product detail page")
+//    public void Userisonproductdetailpage() {
+//
+//        productdetailpage = new productdetailpage(driver);
+//        productdetailpage.validateProductDetailPage();
+//    }
 }
