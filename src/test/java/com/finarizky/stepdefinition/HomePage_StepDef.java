@@ -1,8 +1,8 @@
 package com.finarizky.stepdefinition;
 
-import com.finarizky.baseTest;
-import com.finarizky.page.homePage;
-import com.finarizky.page.loginPage;
+import com.finarizky.BaseTest;
+import com.finarizky.page.HomePage;
+import com.finarizky.page.LoginPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -11,22 +11,22 @@ import io.cucumber.java.en.When;
 import static junit.framework.TestCase.assertFalse;
 import static junit.framework.TestCase.assertTrue;
 
-public class homePage_StepDef extends baseTest {
+public class HomePage_StepDef extends BaseTest {
 
-    homePage homepage;
-    private loginPage loginpage;
+    HomePage homepage;
+    private LoginPage loginpage;
 
 
     @Then("User is on homepage")
     public void userIsOnHomepage() {
-        homepage = new homePage(driver);
+        homepage = new HomePage(driver);
         homepage.validateOnHomePage();
     }
 
 
     @Given("User doing login with {string} and {string}")
     public void userDoingLoginWithAnd(String username, String password) {
-        loginpage = new loginPage(driver);
+        loginpage = new LoginPage(driver);
         loginpage.goToLoginPage();
         loginpage.inputUsername(username);
         loginpage.inputPassword(password);
@@ -36,7 +36,7 @@ public class homePage_StepDef extends baseTest {
 
     @When("User is on productlist page")
     public void userIsOnProductlistPage() {
-        homepage = new homePage(driver);
+        homepage = new HomePage(driver);
         homepage.validateOnHomePage();
     }
 
@@ -54,7 +54,7 @@ public class homePage_StepDef extends baseTest {
 
     @Then("User see filtering data z to a")
     public void userSeeFilteringDataZToA() {
-        homepage = new homePage(driver);
+        homepage = new HomePage(driver);
         homepage.validateZtoA();
     }
 
@@ -66,7 +66,7 @@ public class homePage_StepDef extends baseTest {
 
     @Then("User see filtering data a to z")
     public void userSeeFilteringDataAToZ() {
-        homepage = new homePage(driver);
+        homepage = new HomePage(driver);
         homepage.validateOnHomePage();
     }
 
@@ -78,7 +78,7 @@ public class homePage_StepDef extends baseTest {
 
     @Then("User see filtering data price low to high")
     public void userSeeFilteringDataPriceLowToHigh() {
-        homepage = new homePage(driver);
+        homepage = new HomePage(driver);
         homepage.validateLowtoHigh();
     }
 
@@ -90,7 +90,7 @@ public class homePage_StepDef extends baseTest {
 
     @Then("User see filtering data price high to low")
     public void userSeeFilteringDataPriceHighToLow() {
-        homepage = new homePage(driver);
+        homepage = new HomePage(driver);
         homepage.validateHightoLow();
     }
 
@@ -109,7 +109,7 @@ public class homePage_StepDef extends baseTest {
     @Then("The add to cart button backpack change to remove button")
     public void theAddToCartButtonBackpackChangeToRemoveButton() {
 
-        homepage = new homePage(driver);
+        homepage = new HomePage(driver);
         homepage.validateButtonChangetoRemoveBp();
     }
 
@@ -128,7 +128,7 @@ public class homePage_StepDef extends baseTest {
     @Then("The add to cart button light bike change to remove button")
     public void theAddToCartButtonLightBikeChangeToRemoveButton() {
 
-        homepage = new homePage(driver);
+        homepage = new HomePage(driver);
         homepage.validateButtonChangetoRemoveLb();
     }
 
@@ -147,7 +147,7 @@ public class homePage_StepDef extends baseTest {
     @Then("The add to cart button bolt tshirt change to remove button")
     public void theAddToCartButtonBoltTshirtChangeToRemoveButton() {
 
-        homepage = new homePage(driver);
+        homepage = new HomePage(driver);
         homepage.validateButtonChangetoRemoveBoltTshirt();
     }
 
@@ -166,7 +166,7 @@ public class homePage_StepDef extends baseTest {
     @Then("The add to cart button fleece jacket change to remove button")
     public void theAddToCartButtonFleeceJacketChangeToRemoveButton() {
 
-        homepage = new homePage(driver);
+        homepage = new HomePage(driver);
         homepage.validateButtonChangetoRemoveFj();
     }
 
@@ -185,7 +185,7 @@ public class homePage_StepDef extends baseTest {
     @Then("The add to cart button onesie change to remove button")
     public void theAddToCartButtonOnesieChangeToRemoveButton() {
 
-        homepage = new homePage(driver);
+        homepage = new HomePage(driver);
         homepage.validateButtonChangetoRemoveOnesie();
     }
 
@@ -204,7 +204,7 @@ public class homePage_StepDef extends baseTest {
     @Then("The add to cart button tshirt red change to remove button")
     public void theAddToCartButtonTshirtRedChangeToRemoveButton() {
 
-        homepage = new homePage(driver);
+        homepage = new HomePage(driver);
         homepage.validateButtonChangetoRemoveTr();
     }
 
@@ -224,7 +224,7 @@ public class homePage_StepDef extends baseTest {
     @Then("The remove button bp change to add to cart button bp")
     public void theRemoveButtonBpChangeToAddToCartButtonBp() {
 
-        homepage = new homePage(driver);
+        homepage = new HomePage(driver);
         homepage.validateButtonChangetoAddtoCartBp();
     }
 
@@ -237,7 +237,7 @@ public class homePage_StepDef extends baseTest {
     @Then("The remove button lp change to add to cart button lp")
     public void theRemoveButtonLpChangeToAddToCartButtonLp() {
 
-        homepage = new homePage(driver);
+        homepage = new HomePage(driver);
         homepage.validateButtonChangetoAddtoCartLb();
     }
 
@@ -249,7 +249,7 @@ public class homePage_StepDef extends baseTest {
     @Then("The remove button bt change to add to cart button bt")
     public void theRemoveButtonBtChangeToAddToCartButtonBt() {
 
-        homepage = new homePage(driver);
+        homepage = new HomePage(driver);
         homepage.validateButtonChangetoAddtoCartBt();
     }
 
@@ -262,7 +262,7 @@ public class homePage_StepDef extends baseTest {
     @Then("The remove button fj change to add to cart button fj")
     public void theRemoveButtonFjChangeToAddToCartButtonFj() {
 
-        homepage = new homePage(driver);
+        homepage = new HomePage(driver);
         homepage.validateButtonChangetoAddtoCartFj();
     }
 
@@ -275,7 +275,7 @@ public class homePage_StepDef extends baseTest {
     @Then("The remove button onesie change to add to cart button onesie")
     public void theRemoveButtonOnesieChangeToAddToCartButtonOnesie() {
 
-        homepage = new homePage(driver);
+        homepage = new HomePage(driver);
         homepage.validateButtonChangetoAddtoCarOnesie();
     }
 
@@ -288,7 +288,7 @@ public class homePage_StepDef extends baseTest {
     @Then("The remove button tr change to add to cart button tr")
     public void theRemoveButtonTrChangeToAddToCartButtonTr() {
 
-        homepage = new homePage(driver);
+        homepage = new HomePage(driver);
         homepage.validateButtonChangetoAddtoCartTr();
     }
 

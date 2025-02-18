@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
-public class loginPage {
+public class LoginPage {
 
     static WebDriver driver;
 
@@ -13,7 +13,7 @@ public class loginPage {
     By passInputText = By.id("password");
     By loginButton = By.id("login-button");
 
-    public loginPage(WebDriver driver) {
+    public LoginPage(WebDriver driver) {
         this.driver = driver;
     }
 

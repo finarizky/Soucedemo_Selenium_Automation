@@ -9,26 +9,29 @@
       <change beforePath="$PROJECT_DIR$/reports/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/cucumber_checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber_checkout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/cucumber_productdetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber_productdetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber_productdetail.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber_productdetail.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/runnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/basetest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/baseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/checkoutRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/checkOutRunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/homepageRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/homePageRunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/cartpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/cartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/checkoutpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/checkOutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/homePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/loginpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/loginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/productdetailpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/productDetailPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/productdetailRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/productDetailRunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/cart_stepdef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/cart_StepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/checkout_stepdef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/checkOut_StepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/cucumberHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/cucumberHooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/homepage_stepdef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/homePage_StepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/login_stepdef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/login_StepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/productdetail_stepdef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/productDetail_StepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/checkout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/checkOut.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/homepage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/homePage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/baseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/cartRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/CartRunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/checkOutRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/CheckOutRunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/homePageRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/HomePageRunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/loginRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/LoginRunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/cartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/checkOutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/CheckOutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/productDetailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/ProductDetailPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/productDetailRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/ProductDetailRunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/runnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/RunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/cart_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/Cart_StepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/checkOut_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/CheckOut_StepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/cucumberHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/CucumberHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/homePage_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/HomePage_StepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/login_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/Login_StepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/productDetail_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/ProductDetail_StepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/cart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Cart.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/checkOut.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CheckOut.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/homePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/HomePage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/product_detail.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ProductDetail.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +236,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/finarizky/productDetailRunnerTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/finarizky/ProductDetailRunnerTest.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

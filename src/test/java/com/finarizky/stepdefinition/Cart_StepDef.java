@@ -1,18 +1,18 @@
 package com.finarizky.stepdefinition;
 
-import com.finarizky.baseTest;
-import com.finarizky.page.cartPage;
-import com.finarizky.page.homePage;
+import com.finarizky.BaseTest;
+import com.finarizky.page.CartPage;
+import com.finarizky.page.HomePage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 
-public class cart_StepDef extends baseTest {
+public class Cart_StepDef extends BaseTest {
 
-    com.finarizky.page.cartPage cartPage;
-    private homePage homepage;
+    CartPage cartPage;
+    private HomePage homepage;
 
-    public cart_StepDef() {
-        this.cartPage = new cartPage(driver);
+    public Cart_StepDef() {
+        this.cartPage = new CartPage(driver);
     }
 
 
@@ -31,7 +31,7 @@ public class cart_StepDef extends baseTest {
     @And("User add cart product Backpack")
     public void userAddCartProductBackpack() {
 
-        homepage = new homePage(driver);
+        homepage = new HomePage(driver);
         homepage.setAddCartBackpack();
     }
 
