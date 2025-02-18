@@ -1,16 +1,16 @@
 package com.finarizky.stepdefinition;
 
-import com.finarizky.baseTest;
-import com.finarizky.page.checkOutPage;
+import com.finarizky.BaseTest;
+import com.finarizky.page.CheckOutPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 
-public class checkOut_StepDef extends baseTest {
+public class CheckOut_StepDef extends BaseTest {
 
-    checkOutPage checkoutpage;
+    CheckOutPage checkoutpage;
 
-    public checkOut_StepDef() {
-        this.checkoutpage = new checkOutPage(driver);
+    public CheckOut_StepDef() {
+        this.checkoutpage = new CheckOutPage(driver);
     }
 
     @And("User click checkout button")
@@ -22,7 +22,7 @@ public class checkOut_StepDef extends baseTest {
     @Then("User is on Your Information")
     public void UserisonYourInformation() {
 
-        checkoutpage = new checkOutPage(driver);
+        checkoutpage = new CheckOutPage(driver);
         checkoutpage.validateYourInfoPage();
     }
 
@@ -59,7 +59,7 @@ public class checkOut_StepDef extends baseTest {
     @Then("User is on overview page")
     public void userIsOnOverviewPage() {
 
-        checkoutpage = new checkOutPage(driver);
+        checkoutpage = new CheckOutPage(driver);
         checkoutpage.validateOverviewPage();
     }
 
@@ -78,7 +78,7 @@ public class checkOut_StepDef extends baseTest {
     @Then("User is on checkout complete page")
     public void userIsOnCheckoutCompletePage() {
 
-        checkoutpage = new checkOutPage(driver);
+        checkoutpage = new CheckOutPage(driver);
         checkoutpage.validateOrderComplete();
     }
 

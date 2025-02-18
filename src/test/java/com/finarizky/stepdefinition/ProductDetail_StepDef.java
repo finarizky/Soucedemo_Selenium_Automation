@@ -1,21 +1,21 @@
 package com.finarizky.stepdefinition;
 
-import com.finarizky.baseTest;
-import com.finarizky.page.homePage;
-import com.finarizky.page.productDetailPage;
+import com.finarizky.BaseTest;
+import com.finarizky.page.HomePage;
+import com.finarizky.page.ProductDetailPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 
 import static junit.framework.TestCase.assertTrue;
 
-public class productDetail_StepDef extends baseTest {
+public class ProductDetail_StepDef extends BaseTest {
 
-    productDetailPage productdetailpage;
-    homePage homepage;
+    ProductDetailPage productdetailpage;
+    HomePage homepage;
 
-    public productDetail_StepDef() {
+    public ProductDetail_StepDef() {
 
-        this.productdetailpage = new productDetailPage(driver);
+        this.productdetailpage = new ProductDetailPage(driver);
     }
 
 
@@ -40,7 +40,7 @@ public class productDetail_StepDef extends baseTest {
     @Then("The add to cart button change to remove button")
     public void theAddToCartButtonChangeToRemoveButton() {
 
-        productdetailpage = new productDetailPage(driver);
+        productdetailpage = new ProductDetailPage(driver);
         productdetailpage.validateButtonRemove();
     }
 
@@ -53,7 +53,7 @@ public class productDetail_StepDef extends baseTest {
     @Then("The remove button change to add to cart button")
     public void theRemoveButtonChangeToAddToCartButton() {
 
-        productdetailpage = new productDetailPage(driver);
+        productdetailpage = new ProductDetailPage(driver);
         productdetailpage.validateButtonAddtoCart();
     }
 

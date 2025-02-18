@@ -1,21 +1,21 @@
 package com.finarizky.stepdefinition;
 
-import com.finarizky.baseTest;
-import com.finarizky.page.loginPage;
+import com.finarizky.BaseTest;
+import com.finarizky.page.LoginPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 
-public class login_StepDef extends baseTest {
+public class Login_StepDef extends BaseTest {
 
-    loginPage loginpage;
+    LoginPage loginpage;
 
     @Given("User is on landing page")
     public void userIsOnLandingPage() {
 
-        loginpage = new loginPage(driver);
+        loginpage = new LoginPage(driver);
         loginpage.goToLoginPage();
     }
 

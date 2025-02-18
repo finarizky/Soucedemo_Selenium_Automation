@@ -1,10 +1,10 @@
 package com.finarizky.stepdefinition;
 
-import com.finarizky.baseTest;
+import com.finarizky.BaseTest;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
-public class cucumberHooks extends baseTest {
+public class CucumberHooks extends BaseTest {
 
     @Before
     public void beforeTest() {

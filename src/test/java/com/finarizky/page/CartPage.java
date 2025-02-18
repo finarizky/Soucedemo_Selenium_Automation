@@ -7,11 +7,11 @@ import org.openqa.selenium.WebElement;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class cartPage {
+public class CartPage {
 
     private static WebDriver driver;
 
-    public cartPage(WebDriver driver){
+    public CartPage(WebDriver driver){
 
         this.driver = driver;
     }

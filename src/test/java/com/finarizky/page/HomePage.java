@@ -8,11 +8,11 @@ import org.openqa.selenium.WebElement;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class homePage {
+public class HomePage {
 
     private static WebDriver driver;
 
-    public homePage(WebDriver driver) {
+    public HomePage(WebDriver driver) {
 
         this.driver = driver;
     }
