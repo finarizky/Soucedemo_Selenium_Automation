@@ -44,7 +44,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v4.0.0
       if: always()
       with:
-          personal_token: ${{ secret.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: reports
 
     # NOTE: The Gradle Wrapper is the default and recommended way to run Gradle (https://docs.gradle.org/current/userguide/gradle_wrapper.html).
