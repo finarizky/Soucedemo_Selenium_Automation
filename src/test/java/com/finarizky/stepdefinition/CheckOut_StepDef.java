@@ -32,10 +32,10 @@ public class CheckOut_StepDef extends BaseTest {
         checkoutpage.clickButtonCancelCheckout();
     }
 
-    @And("User see error message {string}")
-    public void userSeeErrorMessage(String errorMessageYourInfo) {
+    @Then("User see error message portal code {string}")
+    public void userSeeErrorMessagePortalCode(String errorMessageYourInfo) {
 
-        checkoutpage.validateErrorMessageYourInfo(errorMessageYourInfo);
+        checkoutpage.validateErrorMessageYourInfoFalse(errorMessageYourInfo);
     }
 
     @And("User input last name with {string}")
@@ -92,5 +92,11 @@ public class CheckOut_StepDef extends BaseTest {
     public void userClickContinueCheckoutButton() {
 
         checkoutpage.clickButtonContinueCheckout();
+    }
+
+    @Then("User see error message {string}")
+    public void userSeeErrorMessage(String errorMessageYourInfo) {
+
+        checkoutpage.validateErrorMessageYourInfo(errorMessageYourInfo);
     }
 }

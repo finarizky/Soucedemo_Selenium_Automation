@@ -7,31 +7,10 @@
     <list default="true" id="fe6be2b0-9bc2-4f6f-9f8c-f7add47815ee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber_checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber_checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber_productdetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber_productdetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/baseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/cartRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/CartRunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/checkOutRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/CheckOutRunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/homePageRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/HomePageRunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/loginRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/LoginRunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/cartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/checkOutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/CheckOutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/productDetailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/ProductDetailPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/productDetailRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/ProductDetailRunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/runnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/RunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/cart_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/Cart_StepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/checkOut_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/CheckOut_StepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/cucumberHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/CucumberHooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/homePage_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/HomePage_StepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/login_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/Login_StepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/productDetail_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/ProductDetail_StepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/cart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Cart.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/checkOut.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CheckOut.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/homePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/HomePage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/product_detail.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ProductDetail.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/CheckOutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/CheckOutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/CheckOut_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/CheckOut_StepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CheckOut.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CheckOut.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +60,8 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/macbook/Documents/GitHub/Soucedemo_Selenium_Automation&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.productdetailRunnerTest (1)">
-    <configuration name="RunnerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.RunnerTest (1)">
+    <configuration name="RunnerTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -199,8 +178,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RunnerTest (1)" />
         <item itemvalue="Gradle.productdetailRunnerTest (1)" />
-        <item itemvalue="Gradle.RunnerTest" />
         <item itemvalue="Gradle.checkoutRunnerTest" />
         <item itemvalue="Gradle.homepageRunnerTest" />
         <item itemvalue="Gradle.cartRunnerTest" />

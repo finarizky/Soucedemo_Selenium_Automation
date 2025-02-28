@@ -33,7 +33,7 @@ Feature: Checkout
     And User click checkout button
     Then User is on Your Information
     And User click continue checkout button
-    And User see error message "Error: First Name is required"
+    Then User see error message "Error: First Name is required"
 
   @checkout-empty-firstname
   Scenario: Verify that the user has doing checkout without input First Name
@@ -75,7 +75,7 @@ Feature: Checkout
     And User input first name with "nanabi"
     And User input last name with "osaka"
     And User click continue checkout button
-    Then User see error message "Error: Portal Code is required"
+    Then User see error message portal code "Error: Portal Code is required"
 
   @checkout-overview-page
   Scenario: Verify that the user succesfully can cancel Checkout process
