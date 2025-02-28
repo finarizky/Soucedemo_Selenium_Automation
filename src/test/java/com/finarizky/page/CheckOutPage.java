@@ -66,6 +66,11 @@ public class CheckOutPage {
         driver.findElement(portalcodeInputText).sendKeys(portalcode);
     }
 
+    public void validateErrorMessageYourInfoFalse (String errorMessageYourInfo){
+
+        assertFalse(driver.getPageSource().contains(errorMessageYourInfo));
+    }
+
     public void validateErrorMessageYourInfo (String errorMessageYourInfo){
 
         assertTrue(driver.getPageSource().contains(errorMessageYourInfo));
