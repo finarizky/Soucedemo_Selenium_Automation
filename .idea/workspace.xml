@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fe6be2b0-9bc2-4f6f-9f8c-f7add47815ee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/page/CheckOutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/page/CheckOutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/CheckOut_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finarizky/stepdefinition/CheckOut_StepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/CheckOut.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CheckOut.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/index.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
