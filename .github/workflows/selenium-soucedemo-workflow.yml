@@ -43,7 +43,7 @@ jobs:
     - name: GitHub Pages action
       uses: peaceiris/actions-gh-pages@v4.0.0
       with:
-          Personal Token: ${{ secrets.GH_PAT }}
+         # Personal Token: ${{ secrets.GH_PAT }}
           publish_dir: reports
     # Set an destination subdirectory for deployment.
 
