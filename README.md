@@ -19,3 +19,4 @@ Konfigurasi yang diperlukan :
 2. konfigurasi webdriver manager di Build.gradle
 3. konfigurasi cucumber di Build.gradle
 4. konfigurasi runner cucumber di build.gradle
+5. konfigurasi github action
